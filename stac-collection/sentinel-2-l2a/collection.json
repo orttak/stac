@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "sentinel-2-l2a",
+  "stac_version": "1.0.0",
+  "description": "A collection of Sentinel-2 L2A data over a single AOI, containing bands B2, B4, B5, B8, and B11.The data is stored as a time-series Zarr archive, with each item representing a single acquisition. The data is provided in UTM projection.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-03-19/2020-03-19.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-04-05/2020-04-05.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-04-08/2020-04-08.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-04-23/2020-04-23.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-05-18/2020-05-18.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-06-12/2020-06-12.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-06-27/2020-06-27.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-08-01/2020-08-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-08-08/2020-08-08.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-08-21/2020-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-08-23/2020-08-23.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-08-26/2020-08-26.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-09-02/2020-09-02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-09-05/2020-09-05.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-09-15/2020-09-15.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2020-09-20/2020-09-20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "title": "Sentinel-2 L2A Collection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          422635.0,
+          5337815.0,
+          433125.0,
+          5345165.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-19T00:00:00Z",
+          "2020-09-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

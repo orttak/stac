@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2020-06-27",
+  "properties": {
+    "datetime": "2020-06-27T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          433125.0,
+          5337815.0
+        ],
+        [
+          433125.0,
+          5345165.0
+        ],
+        [
+          422635.0,
+          5345165.0
+        ],
+        [
+          422635.0,
+          5337815.0
+        ],
+        [
+          433125.0,
+          5337815.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 L2A Collection"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 L2A Collection"
+    }
+  ],
+  "assets": {
+    "B02": {
+      "href": "eoml_preds.zarr",
+      "title": "B02",
+      "eo:bands": [
+        {
+          "name": "B02",
+          "common_name": "blue",
+          "center_wavelength": 0.49,
+          "full_width_half_max": 0.065
+        }
+      ],
+      "gsd": [
+        10.0
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "B04": {
+      "href": "eoml_preds.zarr",
+      "title": "B04",
+      "eo:bands": [
+        {
+          "name": "B04",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.03
+        }
+      ],
+      "gsd": [
+        10.0
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "B08": {
+      "href": "eoml_preds.zarr",
+      "title": "B08",
+      "eo:bands": [
+        {
+          "name": "B08",
+          "common_name": "nir",
+          "center_wavelength": 0.842,
+          "full_width_half_max": 0.115
+        }
+      ],
+      "gsd": [
+        10.0
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "B06": {
+      "href": "eoml_preds.zarr",
+      "title": "B06",
+      "eo:bands": [
+        {
+          "name": "B06",
+          "common_name": "red-edge-2",
+          "center_wavelength": 0.74,
+          "full_width_half_max": 0.015
+        }
+      ],
+      "gsd": [
+        20.0
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "B11": {
+      "href": "eoml_preds.zarr",
+      "title": "B11",
+      "eo:bands": [
+        {
+          "name": "B11",
+          "common_name": "swir-1",
+          "center_wavelength": 1.61,
+          "full_width_half_max": 0.09
+        }
+      ],
+      "gsd": [
+        20.0
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    422635.0,
+    5337815.0,
+    433125.0,
+    5345165.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+  ],
+  "collection": "sentinel-2-l2a"
+}
